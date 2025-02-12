@@ -140,21 +140,17 @@ namespace OpenMenu
         }
 
         static string GetSerialNumber(string resourcePath)
-    {
-        string command = $"{resourcePath}\\ideviceinfo.exe | findstr \"SerialNumber:\"";
-        string output = ExecuteCommand(command);
-        
-        if (!string.IsNullOrEmpty(output))
-        {
-            string[] parts = output.Split(new[] { ':' }, 2);
-            if (parts.Length > 1)
-            {
-                return parts[1].Trim();
-            }
-        }
+{
+    string command = $"{resourcePath}\\ideviceinfo.exe";
+    string output = ExecuteCommand(command);
 
-        return string.Empty;
-    }
+    // Extract only the correct SerialNumber
+    string pattern = @"SerialNumber:\s*([A-Za-z0-9]+)";
+    Match match = Regex.Match(output, pattern);
+
+    return match.Success ? match.Groups[1].Value.Trim() : string.Empty;
+}
+
 
         static string ExecuteCommand(string command)
         {

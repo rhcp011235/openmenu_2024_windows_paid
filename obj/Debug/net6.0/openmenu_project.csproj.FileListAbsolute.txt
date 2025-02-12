@@ -1,0 +1,15 @@
+C:\Users\User\Documents\PROJECTS\openmenu_2024_windows_paid\bin\Debug\net6.0\OpenMenu.exe
+C:\Users\User\Documents\PROJECTS\openmenu_2024_windows_paid\bin\Debug\net6.0\OpenMenu.deps.json
+C:\Users\User\Documents\PROJECTS\openmenu_2024_windows_paid\bin\Debug\net6.0\OpenMenu.runtimeconfig.json
+C:\Users\User\Documents\PROJECTS\openmenu_2024_windows_paid\bin\Debug\net6.0\OpenMenu.dll
+C:\Users\User\Documents\PROJECTS\openmenu_2024_windows_paid\bin\Debug\net6.0\OpenMenu.pdb
+C:\Users\User\Documents\PROJECTS\openmenu_2024_windows_paid\obj\Debug\net6.0\openmenu_project.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\User\Documents\PROJECTS\openmenu_2024_windows_paid\obj\Debug\net6.0\openmenu_project.AssemblyInfoInputs.cache
+C:\Users\User\Documents\PROJECTS\openmenu_2024_windows_paid\obj\Debug\net6.0\openmenu_project.AssemblyInfo.cs
+C:\Users\User\Documents\PROJECTS\openmenu_2024_windows_paid\obj\Debug\net6.0\openmenu_project.csproj.CoreCompileInputs.cache
+C:\Users\User\Documents\PROJECTS\openmenu_2024_windows_paid\obj\Debug\net6.0\openmenu_project.sourcelink.json
+C:\Users\User\Documents\PROJECTS\openmenu_2024_windows_paid\obj\Debug\net6.0\OpenMenu.dll
+C:\Users\User\Documents\PROJECTS\openmenu_2024_windows_paid\obj\Debug\net6.0\refint\OpenMenu.dll
+C:\Users\User\Documents\PROJECTS\openmenu_2024_windows_paid\obj\Debug\net6.0\OpenMenu.pdb
+C:\Users\User\Documents\PROJECTS\openmenu_2024_windows_paid\obj\Debug\net6.0\openmenu_project.genruntimeconfig.cache
+C:\Users\User\Documents\PROJECTS\openmenu_2024_windows_paid\obj\Debug\net6.0\ref\OpenMenu.dll
