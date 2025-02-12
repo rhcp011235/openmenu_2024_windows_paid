@@ -1,0 +1,17 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>Exe</OutputType>
+    <TargetFramework>net6.0</TargetFramework>
+    <RootNamespace>OpenMenu</RootNamespace>
+    <AssemblyName>OpenMenu</AssemblyName>
+  </PropertyGroup>
+
+  <PropertyGroup Condition="'$(Configuration)' == 'Paid'">
+    <AssemblyName>OpenMenu_Paid</AssemblyName>
+    <OutputType>Exe</OutputType>
+    <TargetFramework>net6.0</TargetFramework>
+    <RootNamespace>OpenMenu_Paid</RootNamespace>
+  </PropertyGroup>
+
+</Project>
