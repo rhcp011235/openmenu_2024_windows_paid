@@ -127,16 +127,13 @@ namespace OpenMenu
 
         return false;
     }
-
-        static string GetUUID(string resourcePath)
+static string GetUUID(string resourcePath)
         {
-            string command = $"{resourcePath}\\ideviceinfo.exe";
+            string command = $"{resourcePath}\\ideviceinfo.exe -k UniqueDeviceID";
             string output = ExecuteCommand(command);
             
-            // Parse the output to find the UniqueDeviceID
-            string pattern = @"UniqueDeviceID\s*:\s*(\w+)";
-            Match match = Regex.Match(output, pattern);
-            return match.Success ? match.Groups[1].Value.Trim() : null;
+            // Remove leading and trailing whitespace
+            return output.Trim();
         }
 
     static string GetSerialNumber(string resourcePath)
